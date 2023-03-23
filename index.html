@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>TAREA CSS</title>
+</head>
+<body>  
+    <header>
+        <h1>RESUMEN CLASE INTRODUCCIÓN CSS</h1>
+    </header>
+
+    <main>
+        <section>
+            <header>
+                <h2>Especificidad</h2>
+            </header>
+            <p>Es la manera mediante la cual los navegadores deciden qué valores de una propiedad CSS son más relevantes para un elemento y, por lo tanto, serán aplicados por encima de otros.</p>
+
+            <h2>Ejemplo:</h2>
+            <p>
+                <h2 id="ejemplo1">Especificidad en línea </h2> <!-- especificada en linea es mayor-->
+            </p>
+            <p>**************************************</p>
+        </section>
+
+        <section>
+            <header>
+                <h2>Selectores</h2>
+            </header>
+            <p>Es un patrón de elementos y otros términos que indican al navegador qué elementos HTML se seleccionan para aplicarles una regla que incluye los valores de las propiedades CSS.
+            </p>
+            <h2>Ejemplo: </h2>
+            <p>
+                <h2 class="selector">Selector H2</h2> <!-- selector de clase -->
+                <h3 class="selector">Selector P</h3>
+            </p>
+            <p>**************************************</p>
+        </section>
+
+        <section>
+            <header>
+                <h2>Cascada</h2>
+            </header>
+            <p>Significa que el orden de las reglas importa en CSS: cuando dos reglas tienen la misma especificidad, se aplica la que aparece en último lugar en el CSS.
+            </p>
+            <h2>Ejemplo: </h2>
+            <p>
+                <p id="cascada">Este es un parrafo</p> <!-- se aplica el ultimo-->
+            </p>
+            <p>**************************************</p>
+        </section>
+
+        <section>
+            <header>
+                <h2>Herencia</h2>
+            </header>
+            <p>
+                Es el mecanismo mediante el cual determinadas propiedades de un elemento padre se transmiten a sus hijos
+            </p>
+            <h2>Ejemplo: </h2>
+            <p>
+                <a href="#">Gatito</a>
+            </p>
+            <p>**************************************</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>María Fernanda Medina Mendieta 2022</p>
+    </footer>
+</body>
+</html>

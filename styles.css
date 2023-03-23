@@ -1,0 +1,32 @@
+
+/*especificidad id ejemplo1 es menor*/
+#ejemplo1{
+    color:brown;
+    background-color:antiquewhite;
+}
+
+/*selectores*/
+h2.selector{ /* los h2 con selector*/
+    text-align: left;
+    color:blue;
+}
+.selector{ /*todo lo que tenga selector*/
+    text-align: center;
+    color:blue;
+}
+
+/*cascada*/
+#cascada{
+    color:blue;
+}
+
+#cascada{
+    color:violet;
+}
+
+
+/*herencia*/
+
+p a{
+    color:crimson;
+}
