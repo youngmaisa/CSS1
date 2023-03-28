@@ -1,0 +1,76 @@
+html{
+    font-size: 12px; /* rem */
+}
+
+.titulo1 h1{
+    color:brown;
+    text-align: center;
+    font-family: monospace;
+}
+
+section header > h1{
+    color:blue;
+    font-family: monospace;
+    text-decoration: underline;
+}
+
+
+/*------selector etiqueta ------*/
+h1{
+    color:cadetblue;
+    font-weight: bold;
+    font-family: fantasy;
+}
+
+/*------selector clase ---------*/
+.clase{
+    color:brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+/*------ selector id --------------*/
+#id1{
+    color:crimson;
+    font-family: cursive;
+    font-style: italic;
+    text-decoration: overline;
+}
+
+/*----- selector universal ------*/
+* p{
+    color:darkgreen;
+    font-style:italic;
+    font-weight: 600;
+}
+/*--------- selector descendiente-----------*/
+.descen h2{  /* herencia a todos h2 */
+    color:chocolate;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: line-through;
+}
+
+.descen h3{  /* herencia a todos h2 */
+    color:fuchsia;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: line-through;
+}
+
+
+/*---- selector hijo directo --------------*/
+.hijodirec > h2{
+    color:darkorchid;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/*----- selector hijo siguiente ------------*/
+.hijosiguie h2 + h3{
+    color:deeppink;
+    font-family: sans-serif;
+    text-decoration: dashed;
+}
+/*selector hermanos siguientes ---------------*/
+.hermanos h2 ~ h3{
+    color:darkblue;
+    text-align: center;
+    text-rendering: geometricPrecision;
+}
