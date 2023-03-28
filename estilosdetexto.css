@@ -1,0 +1,68 @@
+html{
+    font-size: 12px; /* rem */
+}
+
+header h1{
+    font-size: 3rem;
+    color:cadetblue;
+}
+
+/*----------------------*/
+
+.tamaños h1{
+    font-size: 1rem;
+}
+
+.tamaños h2{
+    font-size: 2rem;
+}
+
+.tamaños h3{
+    font-size: 3rem;
+}
+
+
+/*-------------------------------*/
+
+
+.linea h1{
+    line-height: 10px;
+}
+.linea h2{
+    line-height: 30px;
+}
+.linea h3{
+    line-height: 50px;
+}
+
+
+/*--------------------------------*/
+
+.transform h1{
+    text-transform: capitalize;
+}
+.transform h2{
+    text-transform: lowercase;
+}
+
+/*-----------------------------*/
+
+.alineacion h1{
+    text-align: right;
+}
+
+.alineacion h2{
+    text-align: left;
+}
+.alineacion h3{
+    text-align: center;
+}
+/*--------------------------------*/
+
+.peso h1{
+    font-weight: 300;
+}
+.peso h2{
+    font-weight: 600;
+}
+
