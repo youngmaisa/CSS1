@@ -5,6 +5,7 @@ html{
 header h1{
     font-size: 3rem;
     color:cadetblue;
+    text-decoration: underline;
 }
 
 /*----------------------*/
@@ -66,3 +67,12 @@ header h1{
     font-weight: 580;
 }
 
+/*----------*/
+
+.decoration h1{
+    text-decoration: line-through;
+}
+
+.decoration h2{
+    text-decoration: underline;
+}
